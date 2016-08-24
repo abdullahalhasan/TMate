@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_margin="4dp"
+        android:id="@+id/eventNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Event Name"/>
+    <TextView
+        android:id="@+id/budgetTV"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:text="Budget"
+        android:textSize="18dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
